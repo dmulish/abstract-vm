@@ -1,16 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   vm.h                                               :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dmulish <dmulish@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/03/27 19:52:31 by dmulish           #+#    #+#             */
-/*   Updated: 2018/03/29 15:53:42 by dmulish          ###   ########.fr       */
+/*   Created: 2018/03/31 15:33:35 by dmulish           #+#    #+#             */
+/*   Updated: 2018/04/18 18:59:35 by dmulish          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef VM_H
-# define VM_H
+#include "IOperand.hpp"
 
-#endif
+int		main(void)
+{
+	Factory		*factory;
+	IOperand	*operand;
+
+	// factory = new 
+
+	operand = factory->createOperand(int8, "42");
+	return (0);
+}

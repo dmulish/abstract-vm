@@ -6,7 +6,7 @@
 #    By: dmulish <dmulish@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/03/28 17:09:22 by dmulish           #+#    #+#              #
-#    Updated: 2018/03/29 15:54:20 by dmulish          ###   ########.fr        #
+#    Updated: 2018/04/18 19:54:24 by dmulish          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,8 @@ NAME = avm
 
 FLAGS = -Wall -Wextra -Werror -I includes -g
 
-SRCS = IOperand.cpp	\
+SRCS = main.cpp		\
+	   OperandFactory.cpp	\
 
 BINS = $(SRCS:.c=.o)
 
